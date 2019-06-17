@@ -10,11 +10,11 @@ To run the project, key in `mvn verify` or `gradle test` from the command line.
 
 By default, the tests will run using Chrome. To run them in Firefox by overriding the `driver` system property, e.g.
 ```json
-$ mvn clean verify -Ddriver=firefox
+$ mvn verify -Ddriver=firefox
 ```
 Or 
 ```json
-$ gradle clean test -Pdriver=firefox
+$ gradle test -Pdriver=firefox
 ```
 ## Test Execution Report
 The test results will be recorded in the `target/site/serenity` directory.
