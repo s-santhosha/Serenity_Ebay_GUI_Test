@@ -16,7 +16,7 @@ Or
 ```json
 $ gradle clean test -Pdriver=firefox
 ```
-
+## Test Execution Report
 The test results will be recorded in the `target/site/serenity` directory.
 ```index.html``` provides the comprehensive html report about the test execution.
 
