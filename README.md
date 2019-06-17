@@ -3,7 +3,7 @@
 Serenity BDD is a library that makes it easier to write high quality automated acceptance tests, with powerful reporting and living documentation features. It has strong support for both web testing with Selenium, and API testing using RestAssured. 
 
 ## How to run the project
-Clone or download this project from Github ([https://github.com/](https://github.com/)).
+Clone or download this project from Github.
 
 ## Executing the tests
 To run the project, key in `mvn verify` or `gradle test` from the command line.
