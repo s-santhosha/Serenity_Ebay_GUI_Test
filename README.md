@@ -10,7 +10,7 @@ To run the project, key in `mvn verify` or `gradle test` from the command line.
 
 By default, the tests will run using Chrome Headless for the purpuse of CI/CD implementation.
 
-In order to turn of the headless mode, use `mvn verify -Ddriver=chrome -Dheadless.mode=false`
+In order to "turn off" the headless mode, use `mvn verify -Ddriver=chrome -Dheadless.mode=false`
 
 To run them in Firefox by overriding the `driver` system property, e.g.
 
