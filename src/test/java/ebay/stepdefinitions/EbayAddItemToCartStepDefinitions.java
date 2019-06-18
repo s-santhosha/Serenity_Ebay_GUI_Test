@@ -50,7 +50,6 @@ public class EbayAddItemToCartStepDefinitions {
     @When("^the user searches for another item \"([^\"]*)\"$")
     public void the_user_searches_for_another_item(String arg1) throws InterruptedException {
         searchFor.searchAnotherItem(arg1);
-        Thread.sleep(2000);
     }
 
     @When("^the user selects the first item in the list$")
